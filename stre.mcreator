@@ -1,0 +1,231 @@
+{
+  "mod_elements": [
+    {
+      "name": "Stdsw",
+      "type": "projectile",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stdsw",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stfabric/client/renderer/StdswRenderer.java",
+          "src/main/java/net/mcreator/stfabric/entity/StdswEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "St",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "st",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stre/models/item/st.json",
+          "src/main/java/net/mcreator/stfabric/item/StItem.java"
+        ]
+      }
+    },
+    {
+      "name": "StYouJiKongQiShiShiTiDeWeiZhi",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "st_you_ji_kong_qi_shi_shi_ti_de_wei_zhi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stfabric/procedures/StYouJiKongQiShiShiTiDeWeiZhiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "StdswDanSheWuJiZhongShiTiShi",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stdsw_dan_she_wu_ji_zhong_shi_ti_shi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stfabric/procedures/StdswDanSheWuJiZhongShiTiShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Stpg",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stpg",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stre/recipes/stpg.json"
+        ]
+      }
+    },
+    {
+      "name": "StPLUS",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "st_plus",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stfabric/item/StPLUSItem.java",
+          "src/main/resources/assets/stre/models/item/st_plus.json"
+        ]
+      }
+    },
+    {
+      "name": "STPL",
+      "type": "projectile",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stpl",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stfabric/entity/STPLEntity.java",
+          "src/main/java/net/mcreator/stfabric/client/renderer/STPLRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "STPLLOXEN",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stplloxen",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stfabric/procedures/STPLLOXENProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "immediatesourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "STPLDanSheWuJiZhongShiTiShi",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stpl_dan_she_wu_ji_zhong_shi_ti_shi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stfabric/procedures/STPLDanSheWuJiZhongShiTiShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Stpluspeei",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stpluspeei",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stre/recipes/stpluspeei.json"
+        ]
+      }
+    },
+    {
+      "name": "StPLUszei",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "st_pl_uszei",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stfabric/procedures/StPLUszeiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "stogg",
+      "files": [
+        "lv_0_20240716015302"
+      ],
+      "category": "neutral",
+      "subtitle": "The steel pipe falls to the ground"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.stre.st": "steel tube",
+      "item.stfabric.st": "steel tube",
+      "subtitles.stogg": "The steel pipe falls to the ground",
+      "item.stre.st_plus": "St PLUS"
+    },
+    "zh_cn": {
+      "item.stre.st": "钢管",
+      "item.stfabric.st": "钢管",
+      "subtitles.stogg": "钢管落地",
+      "item.stre.st_plus": "钢管PLUS"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "stre",
+    "modName": "st-re",
+    "version": "1.2.0",
+    "description": "钢管落地!!!!!",
+    "author": "31633, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "stpng_-_fu_ben_",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "fabric-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.stfabric",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300452316
+}
