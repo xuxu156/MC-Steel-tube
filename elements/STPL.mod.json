@@ -1,0 +1,25 @@
+{
+  "_fv": 57,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "CUSTOM:StPLUS"
+    },
+    "showParticles": false,
+    "actionSound": {
+      "value": "CUSTOM:stogg"
+    },
+    "igniteFire": false,
+    "power": 1.7000000000000002,
+    "damage": 15.0,
+    "knockback": 10,
+    "entityModel": "ModelSTPLUS",
+    "customModelTexture": "steeltibe.png",
+    "onHitsBlock": {
+      "name": "STPLLOXEN"
+    },
+    "onHitsEntity": {
+      "name": "STPLDanSheWuJiZhongShiTiShi"
+    }
+  }
+}

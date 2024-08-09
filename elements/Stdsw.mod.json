@@ -1,0 +1,22 @@
+{
+  "_fv": 57,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "CUSTOM:St"
+    },
+    "showParticles": false,
+    "actionSound": {
+      "value": "CUSTOM:stogg"
+    },
+    "igniteFire": false,
+    "power": 1.0,
+    "damage": 10.0,
+    "knockback": 5,
+    "entityModel": "ModelST",
+    "customModelTexture": "steeltibe.png",
+    "onHitsEntity": {
+      "name": "StdswDanSheWuJiZhongShiTiShi"
+    }
+  }
+}
