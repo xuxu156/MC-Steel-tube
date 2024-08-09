@@ -1,7 +1,0 @@
-{
-  "_fv": 57,
-  "_type": "procedure",
-  "definition": {
-    "procedurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"event_trigger\" inline=\"false\" deletable=\"false\" x=\"-81\" y=\"29\"><field name=\"trigger\">no_ext_trigger</field><next><block type=\"entity_execute_command\"><value name=\"entity\"><block type=\"immediate_source_entity_from_deps\"></block></value><value name=\"command\"><block type=\"text\"><field name=\"TEXT\">/summon tnt</field></block></value></block></next></block></xml>"
-  }
-}
