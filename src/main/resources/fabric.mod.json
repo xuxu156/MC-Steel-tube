@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "stre",
+  "version": "1.2.0",
+  "name": "st-re",
+  "description": "钢管落地!!!!!",
+  "authors": [
+    "31633, MCreator"
+  ],
+  "contact": {
+    "homepage": "https://mcreator.net",
+    "sources": ""
+  },
+  "license": "Academic Free License v3.0",
+  "icon": "assets/stre/icon.png",
+  "accessWidener": "stre.accesswidener",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.mcreator.stfabric.StreMod"
+    ],
+    "client": [
+      "net.mcreator.stfabric.ClientInit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "fabric": "*",
+    "minecraft": "~1.20",
+    "java": ">=17"
+  },
+  "mixins": [
+    "stre.mixins.json"
+  ]
+}
